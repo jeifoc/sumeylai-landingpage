@@ -1,10 +1,12 @@
 {
+  "homepage": "https://jeifoc.github.io/sumeylai-landingpage",
   "name": "sumeylai-landing-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

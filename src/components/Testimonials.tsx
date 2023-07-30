@@ -10,7 +10,7 @@ export default function Testimonials() {
         <div className='testimony'>
           <div className='testimony--header'>
             <img src={profile01} alt='' />
-            <h5>Persona #1</h5>
+            <h5>Valentina López</h5>
           </div>
           <p>
             "¡Increíble experiencia! Hacía tiempo que no me sentía tan cómoda en
@@ -24,7 +24,7 @@ export default function Testimonials() {
         <div className='testimony'>
           <div className='testimony--header'>
             <img src={profile02} alt='' />
-            <h5>Persona #2</h5>
+            <h5>Isabella Rodríguez</h5>
           </div>
           <p>
             "Llegué al consultorio con mucho temor debido a malas experiencias
@@ -39,7 +39,7 @@ export default function Testimonials() {
         <div className='testimony'>
           <div className='testimony--header'>
             <img src={profile03} alt='' />
-            <h5>Persona #3</h5>
+            <h5>Camila Pérez</h5>
           </div>
           <p>
             "Excelente atención y resultados. Me recomendaron este consultorio y

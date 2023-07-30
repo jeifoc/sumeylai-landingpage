@@ -1,12 +1,12 @@
+import ad1 from '/src/assets/images/images-ads/01.jpg';
+import ad2 from '/src/assets/images/images-ads/02.jpg';
+import client6 from '/src/assets/images/images-clients/6.jpg';
+
 export default function MiddleSection() {
   return (
     <div className='section2'>
       <div className='container'>
-        <img
-          className='section2--img'
-          src='./src/assets/images/images-ads/01.jpg'
-          alt=''
-        />
+        <img className='section2--img' src={ad1} alt='' />
         <div className='section2--content'>
           <h3 className='section2--keyword'>#1</h3>
           <h2 className='section2--title'>Experiencia y conocimiento</h2>
@@ -37,18 +37,10 @@ export default function MiddleSection() {
             ellos.
           </p>
         </div>
-        <img
-          className='section2--img img-other'
-          src='./src/assets/images/images-clients/6.jpg'
-          alt=''
-        />
+        <img className='section2--img img-other' src={client6} alt='' />
       </div>
       <div className='container'>
-        <img
-          className='section2--img'
-          src='./src/assets/images/images-ads/02.jpg'
-          alt=''
-        />
+        <img className='section2--img' src={ad2} alt='' />
         <div className='section2--content'>
           <h3 className='section2--keyword'>#3</h3>
           <h2 className='section2--title'>Excelentes resultados</h2>

@@ -1,3 +1,11 @@
+import phone from '/src/assets/icons/phone.png';
+import mail from '/src/assets/icons/mail.png';
+import location from '/src/assets/icons/location.png';
+
+import instagram from '/src/assets/icons/instagram.svg';
+import facebook from '/src/assets/icons/facebook.svg';
+import whatsapp from '/src/assets/icons/whatsapp.svg';
+
 export default function Footer() {
   return (
     <>
@@ -13,31 +21,31 @@ export default function Footer() {
           <div className='footer--contact'>
             <h6>Contacto</h6>
             <div className='contact-item' id='contact'>
-              <img src='./src/assets/icons/phone.png' alt='' />
+              <img src={phone} alt='' />
               <p>+51 947 532 556</p>
             </div>
             <div className='contact-item'>
-              <img src='./src/assets/icons/location.png' alt='' />
+              <img src={location} alt='' />
               <p>
                 Transversal callao 834. Esquina con Av. Jose de Lama. 2do piso
                 Sullana, Perú
               </p>
             </div>
             <div className='contact-item'>
-              <img src='./src/assets/icons/mail.png' alt='' />
+              <img src={mail} alt='' />
               <p>sumey_lg21@hotmail.com</p>
             </div>
           </div>
           <div className='line'></div>
           <div className='footer--network'>
             <a href='https://www.instagram.com/sumeylaiodonto/' target='_blank'>
-              <img src='./src/assets/icons/instagram.svg' alt='' />
+              <img src={instagram} alt='' />
             </a>
             <a href='https://www.facebook.com/SumeyLaiOdonto' target='_blank'>
-              <img src='./src/assets/icons/facebook.svg' alt='' />
+              <img src={facebook} alt='' />
             </a>
             <a>
-              <img src='./src/assets/icons/whatsapp.svg' alt='' />
+              <img src={whatsapp} alt='' />
             </a>
           </div>
         </div>

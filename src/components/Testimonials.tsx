@@ -1,3 +1,7 @@
+import profile01 from '/src/assets/images/profile/01.jpg';
+import profile02 from '/src/assets/images/profile/02.jpg';
+import profile03 from '/src/assets/images/profile/03.jpg';
+
 export default function Testimonials() {
   return (
     <div className='section3'>
@@ -5,7 +9,7 @@ export default function Testimonials() {
       <div className='section3-container'>
         <div className='testimony'>
           <div className='testimony--header'>
-            <img src='./src/assets/images/profile/01.jpg' alt='' />
+            <img src={profile01} alt='' />
             <h5>Persona #1</h5>
           </div>
           <p>
@@ -19,7 +23,7 @@ export default function Testimonials() {
         </div>
         <div className='testimony'>
           <div className='testimony--header'>
-            <img src='./src/assets/images/profile/02.jpg' alt='' />
+            <img src={profile02} alt='' />
             <h5>Persona #2</h5>
           </div>
           <p>
@@ -34,7 +38,7 @@ export default function Testimonials() {
         </div>
         <div className='testimony'>
           <div className='testimony--header'>
-            <img src='./src/assets/images/profile/03.jpg' alt='' />
+            <img src={profile03} alt='' />
             <h5>Persona #3</h5>
           </div>
           <p>

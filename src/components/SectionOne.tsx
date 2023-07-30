@@ -1,3 +1,5 @@
+import ad5 from '/src/assets/images/images-ads/05.jpg';
+
 export default function SectionOne() {
   return (
     <div className='section1'>
@@ -12,11 +14,7 @@ export default function SectionOne() {
       <button className='section1--btn section1--slide-left'>
         Reservar ahora
       </button>
-      <img
-        className='section1--img section1--slide-bottom'
-        src='./src/assets/images/images-ads/05.jpg'
-        alt=''
-      />
+      <img className='section1--img section1--slide-bottom' src={ad5} alt='' />
     </div>
   );
 }
